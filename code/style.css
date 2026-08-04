@@ -28,7 +28,7 @@
 .main {
   display: flex;
   /* flex-direction: column; */
-  block-size: 120vh;
+  block-size: 100vh;
   justify-content: center;
   align-items: center;
   background-color: var(--Navy-950);
@@ -94,8 +94,35 @@
   color: var(--White-paragraph);
 }
 
-@media (min-width: 500px) {
-  /* .main {
+@media (min-width: 1200px) {
+  .box {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1080px;
+    height: 389px;
+  }
+
+  .img {
+    width: 530px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .section-text {
+    padding: 80px;
+    text-align: left;
+  }
+
+  .text {
+    padding-top: 15px;
+  }
+
+  .info {
     flex-direction: row;
-  } */
+    padding-top: 40px;
+    gap: 70px;
+  }
 }
