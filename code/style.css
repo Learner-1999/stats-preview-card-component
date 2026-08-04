@@ -1,0 +1,20 @@
+:root {
+  /* COLORS PRIMARY */
+  --Navy-950: hsl(233, 47%, 7%); /* main background */
+  --Blue-950: hsl(244, 37%, 16%); /* card background */
+  --Purple-500: hsl(277, 64%, 61%); /* accent */
+
+  /* NEUTRAL */
+  --White-heading-stats: hsl(0, 0%, 100%); /* main heading, stats */
+  --White-paragraph: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+  --White-stat-heading: hsla(0, 0%, 100%, 0.6); /* stat headings */
+
+  /* TYPOGRAPHY BODY COPY */
+  --Font-size: 15px;
+
+  /* FONT */
+  --Font-family-inter: "Inter";
+  --Font-family-lexend-deca: "Lexend Deca";
+  --Weight-400: 400;
+  --Weight-700: 700;
+}
